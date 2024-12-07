@@ -1,0 +1,5 @@
+﻿  source.cpp
+C:\cpp-projects\fourer-analysis\fourer-analysis\source.cpp(32,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-projects\fourer-analysis\fourer-analysis\source.cpp(47,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\cpp-projects\fourer-analysis\fourer-analysis\source.cpp(57,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  fourer-analysis.vcxproj -> C:\cpp-projects\fourer-analysis\x64\Debug\fourer-analysis.exe

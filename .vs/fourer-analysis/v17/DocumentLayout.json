@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\cpp-projects\\fourer-analysis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE401CAD-E497-46D6-A7EC-1266E5AFEBC4}|fourer-analysis\\fourer-analysis.vcxproj|C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE401CAD-E497-46D6-A7EC-1266E5AFEBC4}|fourer-analysis\\fourer-analysis.vcxproj|solutionrelative:fourer-analysis\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE401CAD-E497-46D6-A7EC-1266E5AFEBC4}|fourer-analysis\\fourer-analysis.vcxproj|C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\signal.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE401CAD-E497-46D6-A7EC-1266E5AFEBC4}|fourer-analysis\\fourer-analysis.vcxproj|solutionrelative:fourer-analysis\\signal.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "signal.csv",
+              "DocumentMoniker": "C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\signal.csv",
+              "RelativeDocumentMoniker": "fourer-analysis\\signal.csv",
+              "ToolTip": "C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\signal.csv",
+              "RelativeToolTip": "fourer-analysis\\signal.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-12-06T22:36:41.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "source.cpp",
+              "DocumentMoniker": "C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\source.cpp",
+              "RelativeDocumentMoniker": "fourer-analysis\\source.cpp",
+              "ToolTip": "C:\\cpp-projects\\fourer-analysis\\fourer-analysis\\source.cpp",
+              "RelativeToolTip": "fourer-analysis\\source.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-06T22:30:56.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
