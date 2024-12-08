@@ -1,1 +1,6 @@
- .vs/fourer-analysis/v17/ipch/AutoPCH/7d01ab961d14b2a/SOURCE.ipch
+ # Ignorar archivos y directorios de Visual Studio
+.vs/
+.vscode/
+.idea/
+bin/
+obj/
