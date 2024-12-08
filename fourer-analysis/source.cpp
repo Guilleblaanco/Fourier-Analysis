@@ -27,8 +27,14 @@ void readCSV(const string& filename, vector<double>& time, vector<double>& ampli
         getline(ss, t, ',');
         getline(ss, a, ',');
 
-        time.push_back(stod(t));
-        amplitude.push_back(stod(a));
+        if (!t.empty() && !a.empty()) {
+            time.push_back(stod(t));
+            amplitude.push_back(stod(a));
+        }
+    }
+
+    if (time.empty() || amplitude.empty()) {
+        cerr << "Error: Input file '" << filename << "' is empty or contains invalid data.\n";
     }
 }
 
@@ -89,6 +95,12 @@ void saveResults(const vector<complex<double>>& dft, double samplingRate, const 
     const string outputDir = "outputs";
     ensureOutputDirectory(outputDir);
 
+    // Do not proceed if input file was invalid
+    if (dft.empty()) {
+        cerr << "Error: Cannot save results because DFT data is empty.\n";
+        return;
+    }
+
     string outputFileName = generateOutputFilename(inputFilename, outputDir);
     ofstream file(outputFileName);
     int N = dft.size();
@@ -108,7 +120,7 @@ void saveResults(const vector<complex<double>>& dft, double samplingRate, const 
 
 int main() {
     vector<double> time, amplitude;
-    string inputFileName = "signal_TVG.csv"; // Put the name of the input file here
+    string inputFileName = "signal.csv"; // Put the name of the input file here
     readCSV(inputFileName, time, amplitude);
 
     vector<complex<double>> dftResult;
